@@ -1,0 +1,8 @@
+
+Goal: Make our button beautiful, and make our website interactive.
+
+1 - Style our link to look like a button
+2 - Button link opens in a new tab.
+3 - Setup new javascript document
+4 - Clicking on the image swaps it with another, and back again.
+BONUS - Add an animation to your image change.

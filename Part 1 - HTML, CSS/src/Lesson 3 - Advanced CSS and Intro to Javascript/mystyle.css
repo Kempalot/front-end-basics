@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  color: red;
+}
+
+.page-container {
+  padding: 50px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#red-panda-image {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+/*
+CSS Priority
+1 - Inline style (inside an HTML element)
+2 - External and internal style sheets (in the head section)
+3 - Browser default
+*/
+
+li {
+  color: gray;
+}
+
+.list-item {
+  color: aqua;
+}
+
+.list-item.list-item-3 {
+  color: brown;
+}
+
+.list-item.list-item-4 {
+  color: chartreuse;
+}
+
+li.list-item.list-item-4 {
+  color: green;
+}
+
+li:nth-of-type(2n) {
+  font-weight: bold;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px;
+  background-color: red;
+  color: rgba(255,255,255,1);
+  border: 1px solid red;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.35s ease;
+}
+
+a.button:hover {
+  background-color: rgba(255,255,255,1);
+  color: red;
+}
+
+
+#animation-image {
+  display: block;
+  margin: 20px auto;
+  width: 450px;
+  height: 281px;
+  transition: background-image 1s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Sleeping_red_panda_species_spotlight_279173/story_full_width/6q742cr2fv_WEB_279173.jpg");
+}
+
+#animation-image:hover {
+  background-image:url("https://i.guim.co.uk/img/media/e78c31b44912c934a46f8cfde703e30303d6b5e8/0_173_3500_2101/master/3500.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=16dbd6e354df7269c6782459cccd77a4");
+}

@@ -1,0 +1,8 @@
+
+Goal: Create a basic page about your favourite animal
+
+1 - A title with the name of the animal
+2 - A paragraph of information
+3 - A list of facts
+4 - An image
+5 - A link to a page about it.

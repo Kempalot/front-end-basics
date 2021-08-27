@@ -1,0 +1,9 @@
+
+Goal: To make our website more colourful and appealing.
+
+1 - Setup a CSS file
+2 - Resize the page to not be full width
+3 - Change the colour of your title.
+4 - Change the colour of the list text to be aqua
+5 - Change the first list item to be blue
+BONUS - Change every second list item to be bold
